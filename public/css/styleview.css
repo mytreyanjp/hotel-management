@@ -1,0 +1,130 @@
+@font-face {
+    font-family: fa;
+    src: url(GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: ti;
+    src: url(BLKCHCRY.TTF);
+}
+body {
+            background-image: url('beach1.jpg');
+            background-color: rgb(212, 99, 0);
+            background-repeat:no-repeat;
+            background-size: cover;
+            height:300px;
+            background-attachment: fixed;
+        }
+
+        h2 {
+            margin: 20px;
+            font-size: 80px;
+            font-weight: 10;
+            font-family: ti;
+            color: rgb(255, 255, 255);
+            margin-left: 10px;
+            opacity: 1;
+            text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.267);
+        }
+
+        table {
+            width: 90%;
+            border-radius: 12px;font-family: fa;
+            border-collapse: collapse;
+            background-color: #ffffff1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Ensure the rounded corners are applied */
+        }
+
+         td {
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color:white;
+            text-shadow: 9px 3px 4px rgba(0, 0, 0, 0.267);
+            text-align: center;
+            border: 1px solid #fff; /* White border to separate cells */
+        }
+
+        th {
+            background-color: #0080ff3c;
+            color: rgb(255, 255, 255);
+            
+            padding: 10px;font-size: 30px; border: 1px solid #fff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+     
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: 0.3s color ease-in-out;
+        }
+        a:hover{
+            color:rgba(238, 246, 255, 0.367);
+        }
+     
+
+        p {
+            margin-top: 20px;
+        }
+        #links{
+            margin-top: -40px;
+            text-align: center;
+                  font-size: 27px;
+                  font-weight: 10;
+                  text-decoration:none;
+                  font-family: ti;
+                  background-color: rgba(0, 78, 142, 0.504); 
+                  border-radius: 15px; 
+                  padding: 7px;
+                  color:  rgb(255, 255, 255);
+                  
+                  opacity: 1;
+                  text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.267);
+        }
+        #links1{
+                position: absolute;
+                  font-size: 35px;
+                  font-weight: 10;
+                  text-decoration: none;
+                  font-family: ti;
+                  margin-left: 1400px;
+                  margin-top: -100px;
+                  border-radius: 15px; 
+                  padding: 7px;
+                  color:  rgb(255, 255, 255);
+                  
+                  opacity: 1;
+                  text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.267);
+        }
+        #links1:hover{
+            color:rgba(0, 70, 127, 0.565);
+        }
+        #cancel{
+            color:white;
+            font-family:ti;
+            line-height: 30%;
+            font-size: 30px;
+            text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.267);
+        }
+        #foorm{
+            text-align: center;
+            font-size: 27px;
+            font-weight: 10;
+            text-decoration:none;
+            font-family: ti;
+            background-color: rgba(0, 78, 142, 0.504); 
+            border-radius: 15px; 
+            padding: 7px;
+            color:  rgb(255, 255, 255);
+            transition: 0.2s background-color ease-in-out;
+            opacity: 1;
+            text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.267);
+        }
+        #foorm:hover{
+background-color: rgba(0, 110, 207, 0.448);
+cursor: pointer
+;
+        }

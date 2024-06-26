@@ -1,0 +1,104 @@
+@font-face {
+    font-family: fa;
+    src: url(GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: ti;
+    src: url(BLKCHCRY.TTF);
+}
+body {
+    background-image: url('outrun-neon-dark-background-purple-3840x2160-4523.jpg');
+    color: rgb(255, 255, 255);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:300px;
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    margin-top: -30px;
+    
+   
+}
+
+h1 {
+    text-align: center;
+    font-family: 'ti'; /* Make sure to replace 'ti' with the actual font name if it's a custom font */
+    font-weight: 100;
+    color: rgb(255, 0, 221); /* Pink color for the heading */
+    animation: glow 1.5s ease-in-out infinite alternate; /* Glowing animation */
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(255, 0, 221, 0.5); /* Initial shadow color and size */
+    }
+    to {
+        text-shadow: 0 0 20px rgba(255, 0, 221, 1); /* Glowing shadow color and size */
+   
+    }}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+    font-size: 25px;
+    font-family: ti;
+    font-weight: 10;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #0000005f;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 221); /* Blue color for the button */
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s background-color ease-in-out;
+}
+
+#ww{
+    font-size:70px;
+    font-family: fa;
+}
+#ww1
+{
+    margin-top:-80px;
+    font-size:40px;
+}
+button:hover {
+    background-color: rgba(134, 0, 116, 0.975); /* Darker blue color on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(255, 0, 183);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
